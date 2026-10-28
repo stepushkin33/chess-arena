@@ -1,0 +1,8 @@
+@import './app/styles/base.css';
+@import './app/styles/lobby.css';
+@import './app/styles/header.css';
+@import './app/styles/board.css';
+@import './app/styles/sidebar.css';
+@import './app/styles/dialogs.css';
+@import './app/styles/details.css';
+@import './app/styles/responsive.css';

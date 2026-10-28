@@ -1,0 +1,10 @@
+services:
+  server:
+    environment:
+      PUBLIC_URL: http://localhost:8080
+      ALLOWED_ORIGINS: http://localhost:8080,http://127.0.0.1:8080
+  web:
+    ports: !override
+      - '8080:8080'
+    volumes:
+      - ./deploy/Caddyfile.local:/etc/caddy/Caddyfile:ro

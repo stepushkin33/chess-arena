@@ -1,0 +1,108 @@
+.game-shell {
+  background: #111820;
+}
+.topbar {
+  height: 72px;
+  width: 100%;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0 4vw;
+  border-bottom: 1px solid #28343b;
+  background: rgba(17, 24, 32, 0.92);
+}
+.wordmark {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  flex: 0 1 auto;
+  padding: 0;
+  color: #f5f4ef;
+  border: 0;
+  background: transparent;
+  font-family: 'DM Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+}
+.wordmark > span:first-child {
+  display: inline-grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  margin-right: 9px;
+  border-radius: 9px;
+  color: #182128;
+  background: #e7b15a;
+  font-size: 20px;
+}
+.wordmark-name {
+  display: inline-block;
+}
+.topbar-room {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 12px;
+  color: #87959c;
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+}
+.topbar-room strong {
+  color: #e7b15a;
+  letter-spacing: 0.14em;
+}
+.topbar-actions {
+  display: flex;
+  min-width: 0;
+  flex: 0 1 auto;
+  align-items: center;
+  gap: 16px;
+}
+.copy-button {
+  border: 0;
+  color: #b7c0c3;
+  background: transparent;
+  font-size: 11px;
+}
+.copy-button:hover {
+  color: #e7b15a;
+}
+.invite-button {
+  padding: 8px 11px;
+  border: 1px solid #3b4a52;
+  border-radius: 8px;
+}
+.exit-room-button {
+  padding: 8px 10px;
+  color: #b7c0c3;
+  border: 1px solid #3b4a52;
+  border-radius: 8px;
+  background: transparent;
+  font-size: 11px;
+  white-space: nowrap;
+}
+.exit-room-button:hover {
+  color: #efb0a8;
+  border-color: #8b514e;
+}
+.help-button,
+.modal-close {
+  display: grid;
+  place-items: center;
+  width: 29px;
+  height: 29px;
+  padding: 0;
+  color: #e7b15a;
+  border: 1px solid #6e5736;
+  border-radius: 50%;
+  background: rgba(231, 177, 90, 0.08);
+  font-family: 'DM Mono', monospace;
+  font-size: 12px;
+}
+.help-button:hover,
+.modal-close:hover {
+  color: #182128;
+  background: #e7b15a;
+}

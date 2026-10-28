@@ -1,0 +1,11 @@
+{
+  "name": "@chess/server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npm run --workspace @chess/shared build && tsx src/main.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/main.js"
+  }
+}
